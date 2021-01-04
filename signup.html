@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/singnup.css" >
+        <link rel="shortcut icon" href="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png"/>
+        <script>
+            function chanEmail()
+            {
+                myPhone = document.getElementById("phone");
+                myPhone.type="email";
+                myButton = document.getElementById("textphone");
+                myButton.value="Email";
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <img id="im"src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png">
+            <input type="button" value="next" onClick="location.href='next_login.html'">
+        </div>
+        <h3>Create your account</h3><br>
+        <form>
+            <div>
+                <input type="text" value="Name" disabled><br>
+                <input type="text" >
+            </div>
+            <hr>
+            <div>
+                <input type="text" value="Phone" id="textphone" disabled><br>
+                <input type="number" id="phone"><br>
+            </div>
+            <hr><br>
+            <p id ="change" onclick="chanEmail()">Use email instead</p>
+            <div>
+                <h4>Date of birth</h4>
+                <h5>This will not be shown publicly.
+                    Confirm your own age, even if this acccount is for a business,
+                a pet, or something else.</h5>
+            </div>
+            <div style="background-color: rgba(128, 128, 128, 0.294);">
+                <div >
+                    <p style="width: 100%; height: 150pb; color: gray;">
+                        Mounth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Day &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Year
+                    </p>
+                </div>
+                <select class="mounth" name="date_of_birth:mounth">
+                    <option value=""></option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+                <select class="day" name="date_of_birth:day">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select class="year" name="date_of_birth:year">
+                    <option value=""></option>
+                    <option value="1">2020</option>
+                    <option value="2">2019</option>
+                    <option value="3">2018</option>
+                    <option value="4">2017</option>
+                    <option value="5">2016</option>
+                    <option value="6">2015</option>
+                    <option value="7">2014</option>
+                    <option value="8">2013</option>
+                    <option value="9">2012</option>
+                    <option value="10">2011</option>
+                    <option value="11">2010</option>
+                    <option value="12">2009</option>
+                    <option value="13">2008</option>
+                    <option value="14">2007</option>
+                    <option value="15">2006</option>
+                    <option value="16">2005</option>
+                    <option value="17">2004</option>
+                    <option value="18">2003</option>
+                    <option value="19">2002</option>
+                    <option value="20">2001</option>
+                    <option value="21">2000</option>
+                    <option value="22">1999</option>
+                    <option value="23">1998</option>
+                    <option value="24">1997</option>
+                    <option value="25">1996</option>
+                    <option value="26">1995</option>
+                    <option value="27">1994</option>
+                    <option value="28">1993</option>
+                    <option value="29">1992</option>
+                    <option value="30">1991</option>
+                    <option value="31">1990</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>

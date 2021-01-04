@@ -1,0 +1,55 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+input{
+    align-content: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px / 50px;
+    border-color: rgb(22, 159, 223);
+    border-width: 1px;
+}
+h2 p{
+    text-align: center;
+
+}
+h4{
+    color: white;
+}
+div{
+    align-content: flex-start;
+    margin: 10;
+}
+.countinar{
+    margin-right: 10px;
+    display: grid;
+    grid-column: 2;
+    height: 100%;
+    width: 100%;
+}
+.im{
+    height: 35;
+    margin-left: 70px;
+}
+#left
+{
+    background-color: rgb(22, 159, 223);
+    background-image: url("https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left:10px;
+}
+#foot{
+    grid-column: span 2;
+}
+[type=button]:hover
+{
+    background-color: rgba(0, 0, 255, 0.109);
+}

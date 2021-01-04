@@ -1,0 +1,46 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    align-items: center;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin-left: 220px;
+    width: 25px;
+}
+div{
+    background-color: rgba(0, 38, 255, 0.055);
+    width: 100%;
+    height: auto;
+}
+p{
+    color:gray;
+    margin-left: 16px;
+    text-align: justify ,start;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+hr{
+    padding-top: 0;
+}
+p:read-write{
+    color:  rgba(0, 0, 255, 0.616);
+}
+#circle{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 153, 255, 0.76);
+    border-radius: 100px / 50px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20;
+    margin-top: 10px;
+}
